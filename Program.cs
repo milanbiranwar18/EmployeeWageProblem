@@ -7,4 +7,5 @@ Console.WriteLine("Welcome to Employee Wage Computation Program");
 
 //EmployeeWages.DailyEmployeeWage();
 //EmployeeWages.EmployeeWageWithPartTime();
-EmployeeWages.EmployeeWageUC4();
+//EmployeeWages.EmployeeWageUC4();
+EmployeeWages.EmployeeWageofMonthUC5();
