@@ -28,6 +28,7 @@ namespace EmployeeWage
             Console.WriteLine(" The Employee wage of the day is :" + empwage);
         }
 
+
         public static void EmployeeWageWithPartTime()
         {
             int IS_FULL_TIME = 1;
@@ -52,5 +53,34 @@ namespace EmployeeWage
             empwage = emphrs * EMP_RATE_PER_HOUR;
             Console.WriteLine("The Employee wage of the day is :" + empwage);
         }
+
+        
+        public static void EmployeeWageUC4()
+        {
+             const int IS_PART_TIME = 1;
+             const int IS_FULL_TIME = 2;
+
+        int EMP_RATE_PER_HOUR = 20;
+            int emphrs = 0;
+            int empwage = 0;
+            Random obj = new Random();
+            int num = obj.Next(0, 3);
+            switch (num)
+            {
+                case IS_FULL_TIME:
+                    emphrs = 12;
+                    break;
+                case IS_PART_TIME:
+                    emphrs = 8;
+                    break;
+                default:
+                    emphrs = 0;
+                    break;
+
+            }
+            empwage = emphrs * EMP_RATE_PER_HOUR;
+            Console.WriteLine("The Employee wage of the day is :" + empwage);
+        }
+
     }
 }
