@@ -2,3 +2,9 @@
 using EmployeeWage;
 
 Console.WriteLine("Welcome to Employee Wage Computation Program");
+
+//EmployeeAttendance.Employee_Attendance();
+
+//EmployeeWages.DailyEmployeeWage();
+//EmployeeWages.EmployeeWageWithPartTime();
+EmployeeWages.EmployeeWageUC4();
