@@ -8,4 +8,6 @@ Console.WriteLine("Welcome to Employee Wage Computation Program");
 //EmployeeWages.DailyEmployeeWage();
 //EmployeeWages.EmployeeWageWithPartTime();
 //EmployeeWages.EmployeeWageUC4();
-EmployeeWages.EmployeeWageofMonthUC5();
+//EmployeeWages.EmployeeWageofMonthUC5();
+
+EmployeeWages.EmployeeWageofMonthwithMaxHrs();
