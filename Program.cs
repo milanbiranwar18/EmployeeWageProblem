@@ -11,4 +11,5 @@ Console.WriteLine("Welcome to Employee Wage Computation Program");
 //EmployeeWages.EmployeeWageofMonthUC5();
 
 //EmployeeWages.EmployeeWageofMonthwithMaxHrs();
-EmployeeWages.EmployeeWageUC();
+//EmployeeWages.EmployeeWageUC();
+EmployeeWages.computeEmpWage("Parle", 20, 2, 10);
