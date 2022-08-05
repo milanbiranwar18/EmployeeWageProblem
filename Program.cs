@@ -10,4 +10,5 @@ Console.WriteLine("Welcome to Employee Wage Computation Program");
 //EmployeeWages.EmployeeWageUC4();
 //EmployeeWages.EmployeeWageofMonthUC5();
 
-EmployeeWages.EmployeeWageofMonthwithMaxHrs();
+//EmployeeWages.EmployeeWageofMonthwithMaxHrs();
+EmployeeWages.EmployeeWageUC();
