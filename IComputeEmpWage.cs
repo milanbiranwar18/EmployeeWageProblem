@@ -13,7 +13,7 @@ namespace EmployeeWage
 
         public void computeEmpWage();
 
-        
+        public int getTotalWage(string company);
 
 
 

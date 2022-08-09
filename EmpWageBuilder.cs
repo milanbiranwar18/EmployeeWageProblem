@@ -66,6 +66,9 @@ namespace EmployeeWage
            
         
 
-        
+        public int getTotalWage(string company)
+        {
+            return this.CompanyToEmpWageMap[company].totalEmpWage;
+        }
     }
 }
